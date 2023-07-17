@@ -3,7 +3,6 @@
         if(isset($_POST['add_product'])){
             @include 'config.php';
            $selectd_value = $_POST['category'] ;
-           $selectd_value2 = $_POST['Type'];
            $name = $_POST['title'];
            $price = $_POST['product_price'];
            $image = $_FILES['product_image']['name'];
@@ -12,13 +11,13 @@
            $selectd_value3 = $_POST['size'];
            $quantity = $_POST['product_quantity'];
            $discription = $_POST['discription'];
-            if(empty($selectd_value) || empty($selectd_value2) || empty($selectd_value3) || empty($name) || empty($price) || empty($image) || empty($quantity) || empty($discription)){
+            if(empty($selectd_value) || empty($selectd_value3) || empty($name) || empty($price) || empty($image) || empty($quantity) || empty($discription)){
                 $message_null = '<h3 style="color:red;" class="text-center">please fill out all</h3>';
                 echo $message_null;
 //                $null = 1;
 //                echo '<script>Messagenull()</script>';
             }else{
-                $insert = "INSERT INTO product(category,type,name,price,photo,size,quantity,discription) VALUES('$selectd_value','$selectd_value2','$name','$price','$image','$selectd_value3','$quantity','$discription')";
+                $insert = "INSERT INTO product(category,name,price,photo,size,quantity,discription) VALUES('$selectd_value','$name','$price','$image','$selectd_value3','$quantity','$discription')";
                 $upload = mysqli_query($conn,$insert);
                 if($upload){
                     move_uploaded_file($image_tmp_name, $image_folder);
@@ -45,6 +44,12 @@
     <link rel="stylesheet" href="css/style.css">
 <!--    <script src="admin.js"></script>-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+
+    .btn{
+        
+    }
+    </style>
 </head>
 <body>
     <h1 class="text-center">ADMIN</h1>
@@ -57,17 +62,7 @@
              <option value="men">Men</option>
              <option value="women">Women</option>
         </select>
-        <select class="box" name="Type">
-            <option>Select the Product Type</option>
-            <option value="t-shirt">T-Shirt</option>
-            <option value="shirt">Shirt</option>
-            <option value="shorts">Shorts</option>
-            <option value="chino">Chino Short</option>
-            <option value="pants">Pants</option>
-            <option value="classic">Classic pants</option>
-            <option value="travelser">Travelser Pants</option>
-            <option value="legging">Legging</option>  
-        </select>
+
          <input type="text" placeholder="Enter Product Name" name="title" class="box">
          <!-- product name means mens chino pant-brown.mens chino pant-red like wiseeee-->
          <input type="number" placeholder="Enter Product Price" name="product_price" class="box">
@@ -103,20 +98,20 @@
                 <h3>Category : <?php echo $row['category'];?></h3>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
-                <h3>Type : <?php echo $row['type'];?></h3>
-                <br>
                 <h3>Name : <?php echo $row['name'];?></h3>
                 <br>
                 <h3>Price : <?php echo $row['price'];?></h3>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
                 <h3>Size : <?php echo $row['size'];?></h3>
-            </div>
-            <div class="col-sm-6 col-md-4 col-xl-2">
                 <h3>Quantity : <?php echo $row['quantity'];?></h3>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-2">
                 <h3>Note : <?php echo $row['discription'];?></h3>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+                <button class="btn btn-primary">Update</button>
+                <button class="btn">Remove</button>
             </div>
         </div>
         <?php } ?>
