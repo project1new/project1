@@ -1,20 +1,20 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>SingUp</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css"> -->
     <link rel="stylesheet" href="css/Navbar-Right-Links-Dark-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="css/login.css">
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/login.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -46,15 +46,31 @@
             </ul>
         </div>
     </nav>
-<div class="login">
+<div class="singup">
     <div class="form-container">
 
         <form action="" method="POST" enctype="multipart/form-data">
-            <h3>Log In</h3>
-            <input type="text" name="UserName" placeholder="Enter User Name" class="box" required/>
+            <h3>Sign Up</h3>
+            <input type="text" name="username" placeholder="Enter UserName" class="box" required/>
+            <input type="text" name="name" placeholder="Enter Name" class="box" required/>
+            <input type="email" name="email" placeholder="Enter Email" class="box" required/>
+            <input type="text" name="phone-no" placeholder="Enter Contact Number" class="box" required/>
+            <input type="text" name="address" placeholder="Enter Address" class="box" required/>
             <input type="password" name="password" placeholder="Enter Password" class="box" required/>
-            <input type="submit" name="submit" class="btn1" value="Log In" />
-            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <select name="user_type" class="box">
+                <option selected disabled value="default">Please select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <select name="user_type" class="box">
+                <option selected disabled value="default">Please select a account type</option>
+                <option value="customer">Customer</option>
+                <option value="restaurant">Admin</option>
+                <option value="delivery">Deliver</option>
+            </select>
+
+            <input type="submit" name="submit" class="btn1" value="Sign Up" />
+            <p>Already have an account? <a href="login.html">Login</a></p>
 
         </form>
 
