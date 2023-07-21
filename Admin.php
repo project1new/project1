@@ -47,7 +47,7 @@
     <style>
 
     .btn{
-        
+
     }
     </style>
 </head>
@@ -110,8 +110,8 @@
                 <h3>Note : <?php echo $row['discription'];?></h3>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-2">
-                <button class="btn btn-primary">Update</button>
-                <button class="btn">Remove</button>
+                <i class="fas fas-edit"></i><button class="btn">Edit</button>
+                <button class="btn_remove">Remove</button>
             </div>
         </div>
         <?php } ?>
