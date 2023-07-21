@@ -175,18 +175,6 @@
              <a href="" style="text-decoration:none; color:black"><li>Help</li></a>
          </ul>
      </div>
-     <!-- <div class="col-md-3">
-         <h6>
-             About us
-         </h6>
-         <p>    
-         Welcome to our online clothing store,  When we consider the past era of the apparel industry they had the opportunity to sell their 
-         products only from the physical stores. 
-         Online shopping platforms often provide customer reviews and ratings for products. This 
-        allows customers to read feedback from other buyers, helping them make informed 
-        decisions about the quality, fit, and overall satisfaction of the products. 
-         </p>
-     </div> -->
  </div>
 </div>
 <hr>

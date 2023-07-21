@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjFIV3BGRTc4V1FVYTQwVk5GNnFDbGRPaExFZ3xBQ3Jtc0ttUGpHSXpLbmFzWGozZE1OczJBTnZXSHVZQ2tqVkZkelZ3YlkxSFR4NjItTjk1VjVwMVg3M1FMRUhuOEJiRmsxTnp3SXo0dlZCdmx1WXJSWUE2X3pSMHE0R2h5NU13Mm5NcDdKVWluWGtIUHA4VFc4UQ&q=https%3A%2F%2Fcdnjs.com%2Flibraries%2Ffont-awesome&v=UQpZJdQ2o-I">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <!--    <script src="admin.js"></script>-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
@@ -56,6 +58,7 @@
     <div class="container">
    <div class="admin-product-form-container">
       <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
+      <!-- <form> -->
          <h3>add a new product</h3>
          <select class="box" name="category">
              <option>Select the category</option>
@@ -110,8 +113,8 @@
                 <h3>Note : <?php echo $row['discription'];?></h3>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-2">
-                <i class="fas fas-edit"></i><button class="btn">Edit</button>
-                <button class="btn_remove">Remove</button>
+            <a href="" Style="text-decoration:None;"><i class="fas fa-edit"></i><button class="btn">Edit</button></a>
+            <button class="btn_remove">Remove</button>
             </div>
         </div>
         <?php } ?>
