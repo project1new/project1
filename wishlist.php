@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>wishlist</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
@@ -40,12 +40,12 @@
 
     <div class="container mt-3">
     
-        <div class="rounded border-0 overflow-hidden" style="background-color:#EEE9DA">
+        <div class="rounded border-0 overflow-hidden" style="background-color:#EEEDED">
          
             <div class="row mt-3">
                  
              
-                    <h3 class="text-center" id="item-name">MY CART</h3>
+                    <h3 class="text-center" id="item-name">Wishlist</h3>
                      
                  
         </div>
@@ -59,11 +59,11 @@
     
     <div class="container mt-3">
     
-        <div class="rounded border-0   overflow-hidden" style="background-color:#EEE9DA">
+        <div class="rounded border-0   overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
                 <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
-                    <img class="mx-auto d-block rounded border-0   overflow-hidden" width="250" height="180" src="https://img.freepik.com/free-photo/clothing-rack-with-hawaiian-shirts-with-floral-print-hangers-hat_23-2149366076.jpg?size=626&ext=jpg&ga=GA1.1.1882095610.1686062107">
+                    <img class="mx-auto d-block rounded border-0   overflow-hidden" width="250" height="180" src="https://img.freepik.com/free-photo/clothes-hang-shelf_1339-5477.jpg?size=626&ext=jpg&uid=R110422841&ga=GA1.2.1882095610.1686062107&semt=ais">
                 </div>
                 <div class="col-md-6 col-lg-4 mt-2 ">
                     <h5 class="text-center" id="item-name">Floral Shirt</h5>
@@ -75,9 +75,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex flex-row align-items-center justify-content-center"
                     style="display: block;">
-                    <form action="payment.php" method="post">
-                    <button class="btn btn-warning" style="color:white">Check Out</button> &ensp;
-                    </form>
+                     
                     <button class="btn btn-danger" style="color:white">Remove</button>
                 </div>
             </div>
@@ -87,11 +85,11 @@
     <!--Item 2-->
 
     <div class="container mt-3">
-        <div class=" rounded border-0 border-dark overflow-hidden" style="background-color:#EEE9DA">
+        <div class=" rounded border-0 border-dark overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
                 <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
-                    <img class="mx-auto d-block rounded border-0   overflow-hidden" width="250" height="180" src="https://img.freepik.com/free-photo/fashionable-mannequin-wears-modern-hooded-jacket-generated-by-ai_188544-40166.jpg?size=626&ext=jpg&ga=GA1.1.1882095610.1686062107&semt=sph">
+                    <img class="mx-auto d-block rounded border-0   overflow-hidden" width="250" height="180" src="https://img.freepik.com/free-photo/vibrant-yellow-jacket-mannequin-no-people-generated-by-ai_188544-43312.jpg?size=626&ext=jpg&uid=R110422841&ga=GA1.2.1882095610.1686062107&semt=ais">
                 </div>
                 <div class="col-md-6 col-lg-4 mt-2 ">
                     <h5 class="text-center " id="item-name">Jersey</h5>
@@ -103,7 +101,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex flex-row align-items-center justify-content-center"
                     style="display: block;">
-                    <button class="btn btn-warning" style="color:white">Check Out</button> &ensp;
+                     
                     <button class="btn btn-danger" style="color:white">Remove</button>
                 </div>
             </div>
@@ -115,11 +113,11 @@
     <!--Item 3-->
 
     <div class="container mt-3">
-        <div class="  rounded border-0   overflow-hidden" style="background-color:#EEE9DA">
+        <div class="  rounded border-0   overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
-                <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
-                    <img class="mx-auto d-block" width="250" height="180" src="https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&ga=GA1.2.1882095610.1686062107&semt=sph">
+                <div class="col-12 col-md-6 col-lg-4 rounded border-0" style="min-height: 200px;">
+                    <img class="mx-auto d-block" width="250" height="180" src="https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448757.jpg?size=626&ext=jpg">
                 </div>
                 <div class="col-md-6 col-lg-4 mt-2 ">
                     <h5 class="text-center" id="item-name">Crew Neck T-Shirt</h5>
@@ -131,9 +129,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex flex-row align-items-center justify-content-center"
                     style="display: block;">
-                    <form action="payment.php" method="post">
-                    <button class="btn btn-warning" style="color:white">Check Out</button> &ensp;
-                    </form>
+                     
                     <button class="btn btn-danger" style="color:white">Remove</button>
                 </div>
             </div>

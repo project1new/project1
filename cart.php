@@ -40,7 +40,7 @@
 
     <div class="container mt-3">
     
-        <div class="rounded border-0 overflow-hidden" style="background-color:#EEE9DA">
+        <div class="rounded border-0 overflow-hidden" style="background-color:#EEEDED">
          
             <div class="row mt-3">
                  
@@ -59,7 +59,7 @@
     
     <div class="container mt-3">
     
-        <div class="rounded border-0   overflow-hidden" style="background-color:#EEE9DA">
+        <div class="rounded border-0   overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
                 <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
@@ -87,7 +87,7 @@
     <!--Item 2-->
 
     <div class="container mt-3">
-        <div class=" rounded border-0 border-dark overflow-hidden" style="background-color:#EEE9DA">
+        <div class=" rounded border-0 border-dark overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
                 <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
@@ -115,7 +115,7 @@
     <!--Item 3-->
 
     <div class="container mt-3">
-        <div class="  rounded border-0   overflow-hidden" style="background-color:#EEE9DA">
+        <div class="  rounded border-0   overflow-hidden" style="background-color:#EEEDED">
         <div class="com">
             <div class="row mt-6">
                 <div class="col-12 col-md-6 col-lg-4" style="min-height: 200px;">
