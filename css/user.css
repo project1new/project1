@@ -1,0 +1,41 @@
+.content{
+    display: flex;
+}
+.completeOrder{
+    width: 50vw;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    border-radius: 10px;
+
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(232, 240, 254);
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4caf50;
+   /* border: 2px solid #4caf50;*/
+    border-radius: 5px;
+    padding: 20px 40px;
+    display: inline-block;
+    /*    animation: incrementAnimation 10s linear infinite;*/
+}
+
+@keyframes incrementAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}

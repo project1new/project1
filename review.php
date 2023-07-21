@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Review Form</title> 
 
-  <link rel="stylesheet" href="review1.css">
+  <!--<link rel="stylesheet" href="review1.css">-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css"> -->
